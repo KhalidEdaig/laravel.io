@@ -1,11 +1,11 @@
 <?php
 
-use App\Models\Tag;
 use App\Models\Article;
-use Tests\Feature\BrowserKitTestCase;
-use Illuminate\Support\Facades\Notification;
+use App\Models\Tag;
 use App\Notifications\ArticleApprovedNotification;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
+use Illuminate\Support\Facades\Notification;
+use Tests\Feature\BrowserKitTestCase;
 
 uses(BrowserKitTestCase::class);
 uses(DatabaseMigrations::class);
